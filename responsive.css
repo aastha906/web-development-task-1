@@ -1,0 +1,91 @@
+@media only screen and (max-width:1166px) {
+    .navlist {
+        flex-direction: column;
+    }
+    .navlist li {
+        padding: 10px 0px;
+    }
+    .navbar {
+        flex-direction: column;
+        height: 400px;
+        transition: all 0.5s ease-out;
+    }
+    .rightnav {
+        text-align: center;
+        width: 87%;
+    }
+    .rightnav input {
+        text-align: center;
+        padding: 6px 0px;
+    }
+    .firstSection {
+        padding: 15px 2px;
+        /* width: 100%; */
+        height: 80%;
+    }
+    .firsthalf {
+        width: 100%;
+    }
+    .secondhalf {
+        width: 30%;
+    }
+    .section {
+        display: flex;
+        flex-direction: column-reverse;
+        max-width: 90%;
+        height: 35%;
+    }
+    .paras {
+        flex-direction: column;
+        padding: 0px;
+
+    }
+    .box-main {
+    flex-direction: column-reverse;
+    }
+    .burger {
+        display: block;
+    }
+    .h-nav-resp {
+        height: 72px;
+    }
+    .v-class-resp {
+        opacity: 0;
+    }
+    .thumbnail img {
+        width: 80%;
+        margin: 30px 15px;
+    }
+    .sectionTag {
+        font-size: 23px;
+        text-align: left;
+        padding: 10px 2px;
+    }
+    .sectionsubTag {
+        font-size: 19px;
+    }
+    .text-footer {
+        text-align: center;
+        padding: 8px 0px;
+        font-size: 20px;
+        font-family: 'Ubuntu' , sans-serif;
+        padding: 20px 0px;
+        color: white;
+    }
+    .btn {
+    text-align: center;
+    padding: 5px 5px;
+    font-size: 15px;
+    width: 40%;
+    }
+    .logo img {
+        width: 70%;
+    }
+    .form {
+        max-width: 100%;
+        margin: 25px 30px;
+    }
+    .form-input {
+        padding: 0px;
+    }
+}
